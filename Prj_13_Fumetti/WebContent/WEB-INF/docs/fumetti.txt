@@ -1,0 +1,33 @@
+1;Tex il grande!;1988;Sergio Bonelli Editore;Speciale Tex
+2;Terra senza legge;1989;Sergio Bonelli Editore;Speciale Tex
+3;Il segno del serpente;1990;Sergio Bonelli Editore;Speciale Tex
+4;Piombo rovente;1991;Sergio Bonelli Editore;Speciale Tex
+5;Fiamme sull'Arizona;1992;Sergio Bonelli Editore;Speciale Tex
+6;La grande rapina;1993;Sergio Bonelli Editore;Speciale Tex
+7;Il pueblo perduto;1994;Sergio Bonelli Editore;Speciale Tex
+8;Il soldato comanche;1995;Sergio Bonelli Editore;Speciale Tex
+9;La valle del terrore;1996;Sergio Bonelli Editore;Speciale Tex
+10;L'uomo di Atlanta;1996;Sergio Bonelli Editore;Speciale Tex
+11;L'ultima frontiera;1997;Sergio Bonelli Editore;Speciale Tex
+12;Gli assassini;1998;Sergio Bonelli Editore;Speciale Tex
+13;Sangue sul Colorado;1999;Sergio Bonelli Editore;Speciale Tex
+14;L'ultimo ribelle;2000;Sergio Bonelli Editore;Speciale Tex
+15;Il cavaliere solitario;2001;Sergio Bonelli Editore;Speciale Tex
+16;I predatori del deserto;2002;Sergio Bonelli Editore;Speciale Tex
+17;Mercanti di schiavi;2003;Sergio Bonelli Editore;Speciale Tex
+18;Ombre nella notte;2004;Sergio Bonelli Editore;Speciale Tex
+19;Il prezzo della vendetta;2005;Sergio Bonelli Editore;Speciale Tex
+20;Canyon Dorado;2006;Sergio Bonelli Editore;Speciale Tex
+21;Il profeta hualpai;2007;Sergio Bonelli Editore;Speciale Tex
+22;Seminoles;2008;Sergio Bonelli Editore;Speciale Tex
+23;Patagonia;2009;Sergio Bonelli Editore;Speciale Tex
+24;I ribelli di Cuba;2010;Sergio Bonelli Editore;Speciale Tex
+25;Verso l'Oregon;2011;Sergio Bonelli Editore;Speciale Tex
+26;Le iene di Lamont;2011;Sergio Bonelli Editore;Speciale Tex
+27;La cavalcata del morto;2012;Sergio Bonelli Editore;Speciale Tex
+28;I pionieri;2013;Sergio Bonelli Editore;Speciale Tex
+29;L'orda del tramonto;2014;Sergio Bonelli Editore;Speciale Tex
+30;Tempesta su Galveston;2015;Sergio Bonelli Editore;Speciale Tex
+31;Capitan Jack;2016;Sergio Bonelli Editore;Speciale Tex
+32;Il magnifico fuorilegge;2017;Sergio Bonelli Editore;Speciale Tex
+33;I rangers di Finnegan;2018;Sergio Bonelli Editore;Speciale Tex
