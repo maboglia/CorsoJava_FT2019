@@ -7,21 +7,24 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.google.gson.Gson;
+
 import dao.PostDAO;
 import dao.UserDAO;
 import model.Post;
+import model.User;
 
 /**
  * Servlet implementation class BlogController
  */
-@WebServlet("/blog")
-public class BlogController extends HttpServlet {
+@WebServlet("/json")
+public class BlogControllerJSON extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public BlogController() {
+    public BlogControllerJSON() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -33,6 +36,10 @@ public class BlogController extends HttpServlet {
 		
 		PostDAO ud = new PostDAO();
 		StringBuilder sb = new StringBuilder();
+		Gson json = new Gson();
+		UserDAO utenteProva = new UserDAO();
+		User mauro = utenteProva.getById(1);
+		String rispostaJSON = json.toJson(ud.getAll());
 		
 		for (Post post : ud.getAll()) {
 			
@@ -45,9 +52,11 @@ public class BlogController extends HttpServlet {
 			System.out.println(post.getTitle());
 		}
 		
-		
+		response.setContentType("application/json");
+		response.setCharacterEncoding("utf-8");
 		// TODO Auto-generated method stub
-		response.getWriter().append("<h1>i post su questo blog: </h1>").append(sb.toString());
+		//response.getWriter().append("<h1>i post su questo blog in formato JSON: </h1>").append(sb.toString());
+		response.getWriter().append(rispostaJSON);
 	}
 
 	/**
