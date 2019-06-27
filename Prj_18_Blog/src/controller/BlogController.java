@@ -6,6 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import dao.PostDAO;
 import dao.UserDAO;
@@ -31,6 +32,11 @@ public class BlogController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		HttpSession sessione = request.getSession();
+		
+		if (sessione.getAttribute("loggato")!= null) {
+		
+		
 		PostDAO ud = new PostDAO();
 		StringBuilder sb = new StringBuilder();
 		
@@ -48,7 +54,11 @@ public class BlogController extends HttpServlet {
 		
 		// TODO Auto-generated method stub
 		response.getWriter().append("<h1>i post su questo blog: </h1>").append(sb.toString());
-	}
+		}
+		else 
+			response.getWriter().append("<h1>per accedere al blog devi fare il login</h1>");
+			
+		}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
